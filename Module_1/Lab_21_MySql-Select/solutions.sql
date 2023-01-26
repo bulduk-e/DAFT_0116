@@ -43,4 +43,3 @@ LEFT JOIN sales
 ON  titleauthor.title_id = sales.title_id
 GROUP BY authors.au_id
 ORDER BY Num_sold DESC;
-

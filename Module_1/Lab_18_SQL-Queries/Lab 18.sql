@@ -1,8 +1,8 @@
-SELECT DISTINCT prime_genre FROM ironhack_examples.applestore # 1. different genres
+SELECT DISTINCT prime_genre FROM ironhack_examples.applestore; # 1. different genres
 
 SELECT prime_genre, sum(rating_count_tot) # 2. genre with most apps rated
 FROM ironhack_examples.applestore 
-GROUP BY prime_genre
+GROUP BY prime_genre;
 ORDER BY sum(rating_count_tot) DESC
 LIMIT 1;
 

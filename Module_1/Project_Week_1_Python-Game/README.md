@@ -1,85 +1,61 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Build your own game! WOW
+# Title of Your Project
+*Battleship*
+
+*Bulduk, Marcia and Clémence - Paris, 20/01/23*
 
 ## Content
 - [Project Description](#project-description)
-- [Games](#games)
-- [Project Goals](#project-goals)
-- [Requirements & Deliverables](#requirements-&-deliverables)
-- [Schedule](#schedule)
-- [Presentation](#presentation)
+- [Rules](#rules)
+- [Workflow](#workflow)
+- [Organization](#organization)
+- [Links](#links)
 
 ## Project Description
-In this project, you will work in groups and create your first software!
-You are tasked with creating a **game** that interacts with the user, using the functions and basic python resources you have learned during the week. Your game will be able to take an input from the user and provide an output. 
+Our project is to code the game : Battleship. We choose to code a game for one player fighting against the computer. 
 
-You will also present your game to the class. 
+## Rules
+The PC placed randomly 5 ships in a 10x10 array. Lenghts of ships are : 5 for the carrier; 4 for the battleship; 3 for the cruiser; 3 for the submarine and 2 for the destroyer. The ships must be placed without overlapping each other. 
+The player needs to associate a Number and Letter to send a bomb and destroy PC’s ships under a maximum number of 60 guesses.If a ship a completly destroyed, it sinks. If all the ships are sunk, the player wins. 
 
-## Games
-You must come to an agreement with your colleagues so that each of you develops one of the following games:
+## Workflow
 
-* Strong Random Password Generator
-* Guess The Number
-* Hangman
-* Message Encryption & Decryption
-* Mastermind
-* Tic Tac Toe
-* Blackjack
-* Soldier & Dice (Risk)
-* Battleships
-* Pokemon fight simulator
+GAME LOGIC FOR CODE 
 
-## Project Goals
-During this project you will:
-* Fork and manage your own git repository. 
-* Plan your project.
-* Build your own code from scratch. 
-* Put into practice the basic Python concepts learned during the week.
-* Get used to public presentations. 
+1. Initiate game with empty matrix
+2. For each type of ship the PC:
+    Chooses RANDOMLY a first case (e.g. A3) 
+    Orientation ( Vertical or Horizontal).
+    Check if ship is not overlapping with previous placements
+    Save final matrix hidden from player (in memory) : create a list for each boat 
+3. The players has an amount of guesses
+4. Ask player for placement of bomb: one letter + one number e.g. A3
+    Verify for format of string : Ask again if not good
+    Verify if case is already played: Ask again if True
+    Check if bomb hits the ships:
+    Return TOUCH if bomb hits ship 
+    If TOUCH  verify if the ship is SUNK 
+    If SUNK, return “SUNK”
+    If not TOUCH return MISS
+    Discount a guess
+    Visualization
+5. Check if all boats are sunk, if true return “YOU WON”, if not continue 
+6. Check if amount of guess >0, if not return “GAME OVER”.  
 
-## Requirements & Deliverables
-The **mandatory** requirements that this project needs to satisfy are: 
-* The project must be planned, using Jira. Remember that you **CAN'T CODE** until your project is planned. 
-* Your repository must be clean and organized, which means that it must include a *.gitignore* file and a README file, as well as have a well-structured file organization. 
-* Your code must include functions. 
 
-The **mandatory** deliverables that you must turn in are:
-* Project plan
-* Game's alghoritm (flowchart or a step-by-step plan)
-* Link to the repository you used while building your project. The repository must include all the files you used to build your game. Remember to commit often!
-* Link to Jira or picture of your Kanban Board. Include the link or picture in the README file.
 
-The **deadline** to turn in the deliverables is right before the project presentations. 
+## Organization
+We planned our project on Jira, with kanban board. We detailed the game logic and edited a flowchart that was added to our repertory. 
+On a google doc, we define functions that we will use for our code. We split the code work in free parts to work each on a part. After, we merge our codes, we fixed the bugs. And we improved our code working on visualization.  
 
-## Schedule
-| Phase 1 |  
-|:--------:|
-* Choose your game.
-* Plan your project in Jira
-* Fork the repository and edit the README overview. You can find a [template](https://github.com/ta-data-bcn/Project-Week-1-Build-Your-Own-Game/blob/master/your-project/README.md) for your README file in this repository. Remember to keep the README up-to-date. 
-* Create flowchart and pceudocode
-* Once you finish, start coding!
+Our repository contains : our readme, our flowchart, 3 files of codes for our individual work, and a main file which regroup our final code. 
 
-| Phase 2 |  
-|:--------:|
-* In the evening, start preparing the slides for Monday's presentation.  Please, keep in mind the time limitations for your pitch.
 
-| Phase 3 |  
-|:--------:|
-* Presentation time! (On Monday) 
+## Links
+Include links to your repository, slides and kanban board. Feel free to include any other links associated with your project.
 
-## Presentation
-The presentation time limit is **15 minutes**! You will have **10 minutes** to present your project to the class and then **5 minutes** for Q&A. 
-
-The slides of your presentation must include the content listed below and a demo of your game:
-
-* Title of the project + Student name  
-* Description of your game  
-* Challenges  
-* Process  
-* Highlights  
-* Demo (ONE MINUTE)
-
-## Good luck!
-
+[Repository](https://github.com/marciafof/PythonGame-Week1.git)  
+[Slides](https://docs.google.com/presentation/d/1xpXu88ljJFCCIvD_R9ljVv4e5GNUjq8C/edit?usp=sharing&ouid=100045111133207559683&rtpof=true&sd=true)  
+[Jira](https://clemencelegrand.atlassian.net/jira/software/projects/IR/boards/1)  
+[Google doc](https://docs.google.com/document/d/1ya-vi_XDIL3RCmpBLD_Bx2GSfbMs4jfshOoxGUNK51o/edit)

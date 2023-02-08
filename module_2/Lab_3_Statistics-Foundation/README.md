@@ -16,8 +16,12 @@ This file should also include the SQL script for the Part 3.
 Find a and b, if median=42, mean=50
 20,34, 34,  12, 56, 110, 49, a, b.
 
+# Answer : a= 42 ; b = 93
+
 ### Challenge 2
 A car hit an average speed of v1 = 60 kmph in the first half of the journey, and hit an average speed of v2 = 110 kmph in the second half of the journey. Determine the average speed of the car.
+
+# Answer : 85kmph
 
 ### Challenge 3
 The lifetimes of 400 light-bulbs were found to the nearest hour. The results were recorded as
@@ -27,12 +31,19 @@ Frequency         143     97      64      51      14      14        17
 Construct a histogram and cumulative frequency polygon for this dataset. Estimate the percentage
 of bulbs with lifetime less than 480 hours.
 
+# answer : approximately 66%
+
 ### Challenge 4
 The time between arrival of 60 patients at an intensive care unit were recorded to the nearest hour.
 The data are shown below.
 Time (hours) 0–19 20–39 40–59 60–79 80–99 100–119 120–139 140–159 160–179
 Frequency     16    13    17    4     4      3       1      1       1
 Determine the median, mean and standard deviation for this dataset.
+
+# median: 49.5
+# mean: 46.5
+# std dev: 62.4
+
 
 ## Part 2
 ### Challenge 1
@@ -41,10 +52,18 @@ One player rolls two dices. Describe the measurable space and the random variabl
 * B. The sum of the values obtained.
 * C. The maximum value obtained after rolling both dices.
 
+# A : {(1,1), (1,2), (1,3),..., (6,5), (6,6)}
+# B : {2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}
+# C : {12}
+
 Describe the following events:
 * Case A: Both values are greater than 5.
 * Case B: The sum of values is even.
 * Case C: The maximum is the value of both rolls.
+
+# Case A : {(5,5), (5,6), (6,5), (6,6)}
+# Case B : {(1,1),(1,3),(1,5), (2,2),(2,4) ... (6,4), (6,6)}
+# Case C : {12}
 
 ### Challenge 2
 One player picks two cards from a poker deck. Describe the measurable space and the random variable for:

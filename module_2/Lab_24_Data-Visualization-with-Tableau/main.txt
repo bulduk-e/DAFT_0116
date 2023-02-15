@@ -1,0 +1,5 @@
+NFL Dashboard:
+https://public.tableau.com/shared/8KRFF22HS?:display_count=n&:origin=viz_share_link
+
+World maps:
+https://public.tableau.com/views/Worldmaps_16764804974870/Dashboard1?:language=fr-FR&publish=yes&:display_count=n&:origin=viz_share_link

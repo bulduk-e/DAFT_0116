@@ -1,0 +1,3 @@
+https://public.tableau.com/views/Lab27_16766249623290/Dashboard1?:language=fr-FR&publish=yes&:display_count=n&:origin=viz_share_link
+
+The animated bubbles doesn't work on tableau publc

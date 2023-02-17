@@ -21,7 +21,7 @@ Questions:
 
 a. 23.50%
 
-b. 23.97%
+b. 23.97% => CORRECT ANSWER
 
 c. 20.14%
 
@@ -34,24 +34,26 @@ a. Riverside Palais Royal Lawyers Bookcase
 
 b. Bush Mission Pointe Library
 
-c. Sharp AL-1530CS Digital Copier
+c. Sharp AL-1530CS Digital Copier => CORRECT ANSWER
 
 d. Global Troy Executive Leather Low Back Tilter
+
 3. In the Technology Product Category, which unprofitable state is surrounded by only profitable states?
 
-a. Colorado
+a. Colorado => CORRECT ANSWER
 
 b. Missouri
 
 c. Wyoming
 
 d. Utah
+
 4. If 2013 Sales numbers were expected to increase by 50% in the following year, what would be the total
 estimated sales for the Consumer Segment in 2014?
 
 a. $4,278,540
 
-b. $816,999
+b. $816,999 => CORRECT ANSWER
 
 c. $2,752,823
 
@@ -59,13 +61,13 @@ d. $802,365
 
 5. In which Region do all Product Categories fall beneath the overall average profit?
 
-a. All Regions
+a. All Regions 
 
 b. Central
 
 c. East
 
-d. South
+d. South => CORRECT ANSWER
 
 e. West
 
@@ -75,9 +77,10 @@ a. Tables
 
 b. Chairs & Chairmats
 
-c. Paper
+c. Paper => CORRECT ANSWER
 
 d. Binders and Binder Accessories
+
 
 7. Find the customer with the lowest overall profit. What is his/her profit ratio?
 
@@ -87,12 +90,12 @@ b. 1%
 
 c. -17.54%
 
-d. -771.39%
+d. -771.39% => CORRECT ANSWER
 
 8. Determine which State in the Central Region has the highest distribution of profits using interquartile
 ranges.
 
-a. South Dakota
+a. South Dakota => CORRECT ANSWER
 
 b. North Dakota
 
@@ -107,7 +110,7 @@ a. Appliances
 
 b. Bookcases
 
-c. Envelopes
+c. Envelopes => CORRECT ANSWER
 
 d. Paper
 
@@ -115,7 +118,7 @@ d. Paper
 
 a. 3.50%
 
-b. 5.03%
+b. 5.03% => CORRECT ANSWER
 
 c. 17.54%
 
@@ -127,7 +130,7 @@ a. $101,752
 
 b. $180,036
 
-c. $188,552
+c. $188,552 => CORRECT ANSWER   
 
 d. $286,170
 
@@ -138,15 +141,15 @@ a. 1,000
 
 b. 3,000
 
-c. 7,000
+c. 7,000  => CORRECT
 
-d. 8,000
+d. 8,000  => CORRECT
 
 e. 10,000
 
-f. 11,000
+f. 11,000  => CORRECT
 
-g. 18,000
+g. 18,000   => CORRECT
 
 
 ## Part 2

@@ -89,17 +89,16 @@ WHERE t_employees.emp_no > 109990;
 # and last name. Add two columns at the end – one showing the difference between the # maximum and minimum salary 
 # of that employee, and another one saying whether this salary raise was higher than $30,000 or NOT.
 
-SELECT t_employees.emp_no, t_employees.first_name, t_employees.last_name, 
-(max(t_salaries.salary) - min(t_salaries.salary)) AS salary_diff,
-CASE WHEN salary_diff > 30000 THEN 'Higher' ELSE 'Not Higher' END AS salary_raise
-FROM t_employees
-INNER JOIN t_dept_manager ON t_employees.emp_no = t_dept_manager.emp_no
-INNER JOIN (
+SELECT t_employees.emp_no, t_employees.first_name ,t_employees.last_name,
+			(t_salaries_resum.max_salary - t_salaries_resum.min_salary) AS salary_diff,
+			CASE WHEN (t_salaries_resum.max_salary - t_salaries_resum.min_salary) > 30000 THEN 'Higher' ELSE 'Not Higher' END AS salary_raise
+ FROM t_employees
+ INNER JOIN t_dept_manager ON t_employees.emp_no = t_dept_manager.emp_no
+ INNER JOIN (
    SELECT t_salaries.emp_no, MAX(t_salaries.salary) AS max_salary, MIN(t_salaries.salary) AS min_salary
    FROM t_salaries
    GROUP BY t_salaries.emp_no
-) t_salaries ON t_employees.emp_no = t_salaries.emp_no;
-# i get an error "unknown column t_salaries.salary in field list" which i don't understand
+) as t_salaries_resum ON t_salaries_resum.emp_no = t_employees.emp_no;
 
 SELECT * FROM t_dept_emp;
 
